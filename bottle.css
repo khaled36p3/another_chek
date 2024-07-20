@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.nav{
+    display: inline;
+    color: purple;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+.lis{
+    font-size: 25px;
+    background:purple;
+    padding: 3.9px;
+    color: white;
+    border: solid;
+    border-color: blueviolet;
+}
+nav{
+    height: 41px;
+    width: 100%;
+    
+}
+
+.lis:hover{
+    background: rgb(98, 2, 98);
+}
+a {
+    text-decoration: none;
+  }
+  p{
+    padding: 15px;
+    font-size: 30px;
+    color: red;
+  }
+  
